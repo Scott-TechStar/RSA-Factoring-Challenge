@@ -21,8 +21,8 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 -   Push all your scripts, source code, etc... to your repository
     -   we will only run your executable`factors`
  
-`julien@ubuntu:~/factors$ cat tests/test00 
-4
+`julien@ubuntu:~/factors$ cat tests/test00 `
+`4
 12
 34
 128
@@ -35,8 +35,8 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 9999
 9797973
 49
-239809320265259
-julien@ubuntu:~/factors$ time ./factors tests/test00
+239809320265259`
+`julien@ubuntu:~/factors$ time ./factors tests/test00
 4=2*2
 12=6*2
 34=17*2
@@ -50,9 +50,9 @@ julien@ubuntu:~/factors$ time ./factors tests/test00
 9999=3333*3
 9797973=3265991*3
 49=7*7
-239809320265259=15485783*15485773
+239809320265259=15485783*15485773`
 
-real    0m0.009s
+`real    0m0.009s
 user    0m0.008s
 sys 0m0.001s
 julien@ubuntu:~/factors$ `
@@ -71,3 +71,22 @@ This task is the same as task 0, except:
 How far can you go in less than 5 seconds?
 
 -   Read:[RSA Factoring Challenge](https://intranet.hbtn.io/rltoken/8F5ClnjOFgDcNZXxeyrHxg "RSA Factoring Challenge")
+
+`julien@ubuntu:~/RSA Factoring Challenge$ cat tests/rsa-1
+6
+julien@ubuntu:~/RSA Factoring Challenge$ ./rsa tests/rsa-1
+6=3*2
+julien@ubuntu:~/RSA Factoring Challenge$ cat tests/rsa-2
+77
+julien@ubuntu:~/RSA Factoring Challenge$ ./rsa tests/rsa-2
+77=11*7
+julien@ubuntu:~/RSA Factoring Challenge$ [...]  
+julien@ubuntu:~/RSA Factoring Challenge$ cat tests/rsa-15
+239821585064027
+julien@ubuntu:~/RSA Factoring Challenge$ ./rsa tests/rsa-15 
+239821585064027=15486481*15485867
+julien@ubuntu:~/RSA Factoring Challenge$ cat tests/rsa-16
+2497885147362973
+julien@ubuntu:~/RSA Factoring Challenge$ ./rsa tests/rsa-16
+2497885147362973=49979141*49978553
+julien@ubuntu:~/RSA Factoring Challenge$ [...]`
